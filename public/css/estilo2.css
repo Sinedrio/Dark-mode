@@ -1,0 +1,67 @@
+body{
+    background-color: var(--body-bg-color);
+
+}
+#brand{
+    box-shadow: 1px 1px 5px black;
+    background-color: limegreen;
+    padding: 1px;
+    border-radius: 100%;
+    width: 50px;
+    text-align: center;
+    font-family: "American Typewriter";
+    font-size: 11pt;
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+form{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: -220px;
+    left: 160px;
+}
+.card{
+    box-shadow: 1px 1px 15px black;
+    background-color: var(--class-bg-color);
+    border-radius: 5px;
+    height: 350px;
+}
+#login{
+    text-align: center;
+    font-family: "Arial Hebrew Scholar";
+    font-size: 15pt;
+    color: var(--color);
+}  #botao{
+    background-color: limegreen;
+    border-radius: 55px;
+    border: whitesmoke;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+#logo{
+    position: relative;
+    top: 110px;
+    left: 200px;
+}
+
+#brand:hover{
+    color: black;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color: lightgreen;
+}
+root{
+    --body-bg-color: snow;
+    --class-bg-color: whitesmoke;
+    --color: black;
+}
+.dark-mode:root{
+    --body-bg-color: #323232;
+    --class-bg-color: darkslategray;
+}

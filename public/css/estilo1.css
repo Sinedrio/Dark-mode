@@ -1,0 +1,49 @@
+body{
+    background-color: var(--body-bg-color);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: var(--color);
+
+}
+.texto{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: var(--color) ;
+    font-size: 17pt;
+    position: relative;
+    top: -210px;
+}
+img{
+    position: relative;
+    left: 20px;
+}
+#listinha{
+    font-size: 17pt;
+    font-family: "Comic Sans MS";
+    position: relative;
+    left: 650px;
+    top: -310px;
+    color: var(--color);
+}
+#Tmeio{
+    position: relative;
+    top: -200px;
+    left: -440px;
+    color: var(--color);
+}
+#mode{
+    color: var(--color);
+}
+root{
+    --color: black;
+    --body-bg-color: azure;
+}
+.dark-mode:root{
+    --color: #696969;
+    --body-bg-color: black;
+}
